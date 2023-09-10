@@ -8,7 +8,7 @@ const InputForm = (props) => {
   function submitHandler(e){
     e.preventDefault();
     // console.log(input);
-    const newTodo = {id:uuid(), task:input}
+    const newTodo = {id:uuid(), task:input,check:false}
     props.addTodo(newTodo);
     setInput('');
   }

@@ -1,0 +1,10 @@
+#root{
+margin: 10px;
+    border: 1px solid burlywood;
+    width:fit-content;
+    height:max-content;
+    position: relative;
+    left: 450px;
+    /* text-align: center; */
+    top: 80px;
+} 
