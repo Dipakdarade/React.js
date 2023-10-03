@@ -4,6 +4,7 @@ import InputForm from './InputForm'
 // import {v4 as uuid} from 'uuid'
 
 const TodoApp = () => {
+<h2>ToDoApp</h2>
   
   let dummyData = 
     JSON.parse(localStorage.getItem('todos')|| "[]")

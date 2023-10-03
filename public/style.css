@@ -3,8 +3,14 @@ margin: 10px;
     border: 1px solid burlywood;
     width:fit-content;
     height:max-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px skyblue;
     position: relative;
-    left: 450px;
-    /* text-align: center; */
-    top: 80px;
+    left: 560px;
+    text-align: center;
+    align-items: center;
+    top: 20px;
 } 
+.heading{
+    text-align: center;
+}

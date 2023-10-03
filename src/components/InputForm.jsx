@@ -18,9 +18,9 @@ const InputForm = (props) => {
   }
 
   return (
-    <form onSubmit={submitHandler}>
-        <input onChange={changeHandler} type="text" placeholder='Type Here...' value={input} />
-        <button>Add</button>
+    <form  onSubmit={submitHandler}>
+        <input  className='form-control d-inline' onChange={changeHandler} type="text" placeholder='Type Here...' value={input} />
+        <button className='btn btn-sm  mt-2 d-center btn-warning'>Add</button>
     </form>
   )
 }
